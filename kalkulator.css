@@ -1,0 +1,64 @@
+.container{
+    width: 300px;
+    background-color: aquamarine;
+    margin: 50px auto 50px auto;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#kalkulator{
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(249, 91, 39);
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    padding: 7px 5px;
+    text-align: right;
+    outline: none;
+}
+
+.kalkulator-tombol{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tombol{
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    height: 70px;
+    border: 1px solid red;
+    border-top:none ;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.tombol :nth-child(4n+1){
+    border-left: 1px solid red;
+}
+
+.tombol:hover {
+    background: yellow;
+    cursor: pointer;
+}
+
+#nol {
+    flex-grow: 1;
+}
+
+.operator{
+    background-color: aliceblue;
+
+}
+
+#hitung{
+    background-color: rgb(189, 226, 43);
+}
+
+#hitung:hover{
+    background-color: rgb(255, 221, 0);
+}
